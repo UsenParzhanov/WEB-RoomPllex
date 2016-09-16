@@ -157,5 +157,108 @@ header li:hover{
 }
 
 
+/*Reg*/
 
+form[name="signin"]{
+    float: left;
+    margin: 13px 0px 0 0;
+}
+form[name="signin"] input{
+    background: transparent;
+    border: 1px solid white;
+    padding: 8px;
+    margin-right: 10px;
+    width: 194px;
+    border-radius: 5px;
+}
+.slider li{
+    width: 20px;
+    height: 20px;
+    margin: 20px 10px 0 0;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0;
+    border-radius: 100%;
+    box-shadow: inset 3px 1px 3px rgba(0, 0, 0, 0.6)
+}
+.slider li:hover{
+    background: red
+}
+.slider{
+    margin-left: 30px;
+}
+.slider:hover{
+    background: transparent
+}
+.tumblr{
+    background: white !important;
+    width: 40px !important;
+    border-radius: 25px !important;
+    height: 15px !important;
+    width: 35px !important;
+    box-shadow: none !important;
+    margin-top: 22px !important;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    background: red;
+    border-radius: 100%;
+    margin-left: 19px;
+}
+.activeSlide{
+    background: red !important;
+}
+.forgot{
+    font-size: .8em;
+    padding: 0;
+    margin: 0;
+    text-transform: lowercase;
+    line-height: normal;
+    width: 50px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: normal;
+    text-decoration: underline;
+    margin-right: 4px;
+}
+.forgot:hover{
+    background: transparent;
+}
+form[name="forgotPassword"]{
+    float: left;
+    margin: 13px 0px 0 0;
+}
+form[name="forgotPassword"] input{
+    background: transparent;
+    border: 1px solid white;
+    padding: 8px;
+    margin-right: 10px;
+    width: 400px;
+    border-radius: 5px;
+}
 
+.signUp{
+    width: 500px;
+    background: rgba(0, 0, 0, 0.4);
+    margin: 50px auto 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.signUp input{
+    display: block;
+    padding: 10px;
+    background: transparent;
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.signUp input[type="button"]{
+    background: red;
+    font-weight: bold;
+    font-size: .8em;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px black;
+    background: linear-gradient(to bottom, #ff3333, red);
+    border: none;
+}
