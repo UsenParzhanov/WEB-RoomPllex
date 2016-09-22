@@ -4,8 +4,55 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+
+    <div class="popup">
+        <div class="popupCenter popup-mark">
+            <div class="pmBody">
+                <div class="pmImg">
+                    <p>The Birdsville Hotel</p>
+                        
+                </div>
+                <div class="pmDesc clearfix">Built in 1884, the low lying, one-story structure has stood the test of time in defiance of the harsh desert heat and nearly unlivable climates. Offering 27 rooms and dining facilities, the establishment is somewhat legendary in Australia as a symbol of the rugged outback spirit, having survived floods and dust storms that decimated much of the surrounding town. Perched on the edge of Australia’s Simpson Desert, the historic Birdsville Hotel acts as a gateway to the arid region and a bastion of traditional Aussie culture.
+                </div>
+                <div class="pmTags  clearfix">
+                    <span>Tags:</span> 
+                    <p>island</p>
+                    <p>nature</p>
+                    <p> rocks</p>
+                </div>
+                <div class="pmMarks">
+                    <ul>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </div>
+                <div class="pmResult">
+                    <span>7.23</span> 
+                    <span>interesting</span>
+                </div>
+            </div>
+            <div class="pmFoot">
+                <button>Save mark <span>137</span></button>
+                <button>More</button>
+                <div class="clear"></div>
+                <button>Read It</button>
+            </div>
+        </div>
+    </div>
+    
+    
+    
     
     <header class="back1">
         <div class="wrapper">
@@ -36,16 +83,18 @@
     
     <div class="wrapper clearfix">
         <div class="navLeft">
+<!--
             <ul class="navList">
-                <li class="activeLeftSide"><a href="#">Mapnews</a></li>
-                <li><a href="#">World</a></li>
+                <li><a href="#">Mapnews</a></li>
+                <li class="activeLeftSide"><a href="#">World</a></li>
                 <li><a href="#">Countries</a></li>
                 <li><a href="#">Cities</a></li>
             </ul>
+-->
         </div>
         <div class="center">
             <div class="map"></div>
-            <div class="inderMapsButton">
+            <div class="underMapsButton">
                 <ul>
                     <li><a href="#">Search</a></li>
                     <li><a href="#">Filter</a></li>
@@ -53,16 +102,67 @@
                     <li><a href="#">Add mark</a></li>
                 </ul>
             </div>
+            
+            
         </div>
         <div class="navRight">
+<!--
             <ul class="navList">
                 <li class="activeRightSide"><a href="#">Marks</a></li>
                 <li><a href="#">Online</a></li>
                 <li><a href="#">Clubs</a></li>
                 <li><a href="#">About city</a></li>
             </ul>
+-->
         </div>
     </div>
+    
+    
+    
+    
+    
+    <div class="wrapper clearfix">
+        <div class="navLeft"></div>
+        <div class="center">
+            <div class="addMark back1">
+                <p align="center">Add mark</p>
+                 <form action="">
+                     <div class="sh">
+                         <p>Latitude *</p>
+                         <input type="text" name="shyrota">
+                     </div>
+                     <div class="dl">
+                        <p>Longitude *</p>
+                         <input type="text" name="dolgota">
+                     </div>
+                     <div class="zoom">
+                        <p>Zoom</p>
+                         <input type="text" name="zoom">
+                     </div>
+                     <div class="clearfix"></div>
+                     <p>Header</p>
+                     <input type="text" name="zagolovok">
+                     <p>Description</p>
+                     <textarea name="opisanie" rows="10"></textarea>
+                     <p>Tags</p>
+                     <input type="text" name="tag">
+                     <div class="mainPhoto">Main image</div>
+                     <div class="extraPhoto">Additional images</div>
+                     <div class="clearfix"></div>
+                     <button>Add mark</button>
+                     <button>Cancel</button>
+                 </form>
+             </div>
+        </div>
+    </div>
+    
+    
+    
+  
+    
+    
+    
+    
     
     
     <div class="marks">
