@@ -9,7 +9,7 @@
 <body>
 
     <div class="popup">
-        <div class="popupCenter popup-mark">
+        <div class="popupCenter popupMark">
             <div class="pmBody">
                 <div class="pmImg">
                     <p>The Birdsville Hotel</p>
@@ -93,7 +93,10 @@
 -->
         </div>
         <div class="center">
-            <div class="map"></div>
+            <div class="map">
+                <div class="fullScreen">O</div>
+                <div id="map"></div>
+            </div>
             <div class="underMapsButton">
                 <ul>
                     <li><a href="#">Search</a></li>
@@ -146,6 +149,12 @@
                      <textarea name="opisanie" rows="10"></textarea>
                      <p>Tags</p>
                      <input type="text" name="tag">
+                     <p>Magazines</p>
+                     <select name="magazines">
+                         <option value="">SultanKarybaev</option>
+                         <option value="">dfv</option>
+                         <option value="">dfv</option>
+                     </select>
                      <div class="mainPhoto">Main image</div>
                      <div class="extraPhoto">Additional images</div>
                      <div class="clearfix"></div>
@@ -165,7 +174,7 @@
     
     
     
-    <div class="marks">
+    <div class="marks clearfix">
         <div class="oneMark back1">
             <img src="images/katerg.jpg" alt="">
             <p align="center">Big dog</p>
@@ -228,7 +237,98 @@
     </div>
     
     
+    <div class="categories">
+        <div class="oneCategory  usen">
+            <div class="catImg" data-path="2016-09-19_MountSolitary_EN-AU10153300901_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+        </div>
+        
+        <div class="oneCategory">
+            <div class="catImg" data-path="2016-09-21_Castelmezzano_ROW12819192563_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+        </div>
+        
+        <div class="oneCategory">
+            <div class="catImg" data-path="2016-09-23_KeralaBeach_EN-IN10090663331_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+        </div>
+        
+        <div class="oneCategory">
+            <div class="catImg" data-path="2016-09-23_TarrSteps_ROW9015134040_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+        </div>
+        
+        <div class="oneCategory">
+            <div class="catImg" data-path="2016-09-25_Yomegashima1_JA-JP11254666790_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+        </div>
+        
+         <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-27_Roraima_PT-BR12977483391_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+        </div>
+        
+         <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-27_PalmitasMural_ZH-CN10215774743_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+        </div>
+        
+         <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-30_BandraWorliSealink_EN-IN10379335586_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+        </div>
+        
+         <div class="oneCategory ">
+            <div class="catImg" data-path="2016-04-30_GuadalupeCloudsNP_ROW11720694415_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+        </div>
+        
+         <div class="oneCategory  usen">
+            <div class="catImg" data-path="2016-04-30_HayMurol_FR-FR8761556848_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+        </div>
+        
+         <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-27_WycollerAtom_EN-GB12173691922_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+        </div>
+        
+         <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-28_Anteater_PT-BR11936003208_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+        </div>
+
+    </div>
     
+    
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+     <script src="js/main.js"></script>
+     <script>
+      function initMap() {
+        // Create a map object and specify the DOM element for display.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          scrollwheel: true,
+          zoom: 8,
+          disableDefaultUI: true    
+        });
+      }
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARGAVk62gvV8O45gTWBat2n5VS0Yf-tbU&callback=initMap"
+    async defer></script>
     
 </body>
 </html>

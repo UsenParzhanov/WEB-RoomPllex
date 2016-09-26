@@ -94,7 +94,10 @@
 -->
         </div>
         <div class="center">
-            <div class="map"></div>
+            <div class="map">
+                <div class="fullScreen">O</div>
+                <div id="map"></div>
+            </div>
         </div>
         <div class="navRight">
 <!--
@@ -108,7 +111,21 @@
         </div>
     </div>
     
-    
+    <div class="FSmark back1">
+        <div class="FSimg">
+            <div class="FStitle">Popugai</div>
+        </div>
+        <div class="FMdesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis cum quod non delectus tempore? Quod porro id nobis maiores hic unde deserunt adipisci, nesciunt dicta necessitatibus itaque eaque animi!</div>
+        <div class="FMimgofmark">
+            <div class="FMoneimage"></div>
+            <div class="FMoneimage"></div>
+            <div class="FMoneimage"></div>
+            <div class="FMoneimage"></div>
+            <div class="FMoneimage"></div>
+            <div class="FMoneimage"></div>
+            <div class="FMoneimage"></div>
+        </div>
+    </div>
     
     <div class="wrapper">
         <div class="navLeft"></div>
@@ -252,8 +269,22 @@
     
     
     
-    
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      function initMap() {
+        // Create a map object and specify the DOM element for display.
+       var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          scrollwheel: true,
+          zoom: 8,
+          disableDefaultUI: true    
+        });
+      }
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARGAVk62gvV8O45gTWBat2n5VS0Yf-tbU&callback=initMap"
+    async defer></script>
     
     
 </body>
