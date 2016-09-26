@@ -26,7 +26,7 @@ body{
     background: rgba(26, 26, 26, 0.26);
     position: fixed;
     z-index: 999;
-    display: none;
+/*    display: none;*/
 }
 .popupCenter{
     width: 600px;
@@ -40,7 +40,9 @@ body{
     position: relative;
     border-radius: 7px;  
 }
-
+.popupCatalog{
+    width: 760px;
+}
 ul{
     list-style: none;
 }
@@ -136,6 +138,11 @@ header li:hover{
 
 .map{ 
    height: 400px; 
+}
+
+.mapMini{
+    height: 300px;
+    margin-top: 10px;
 }
 .mapFs{
     position: fixed;
