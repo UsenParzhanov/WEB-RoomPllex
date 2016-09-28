@@ -1,4 +1,9 @@
-
+.underMapsButton{
+    background: rgba(0, 0, 0, 0.65);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px
+}
 .underMapsButton li:first-child{
     margin-left: 0;
 }
@@ -6,7 +11,7 @@
     margin-right: 0;
 }
 .underMapsButton li{
-    margin: 5px 53px;
+    margin: 5px 50px;
     width: 110px;
     text-align: center;
     padding: 5px 0;
@@ -24,6 +29,18 @@
     box-shadow: none;
 }
 
+.other{
+    background: transparent!important;
+    border: 1px solid #ff0000;
+    cursor: pointer;
+}
+.other:hover{
+    border: 1px solid #ff0000;
+    color: red !important;
+}
+.otherActiv{
+    color: red;
+}
 .marks{
     padding: 0 50px;
     display: none;
@@ -260,7 +277,7 @@
 .addMark{
     padding: 20px;
     border-radius: 5px;
-    display: none;
+    margin:10px 0;
 }
 
 .addMark textarea{
@@ -370,4 +387,122 @@ select[name="magazines"]{
     padding: 5px;
     font-weight: bold;
     font-size: .8em
+}
+
+
+
+.catalogOpen{
+    background: rgba(0, 0, 0, 0.51);
+    padding: 10px;
+    border-radius: 5px;
+    height: 560px;
+    margin-top: 10px;
+}
+
+
+.subscribe{
+    background: rgba(7, 7, 7, 0.67);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px
+}
+.subscribe button{
+    float: right;
+    width: 150px !important;
+    height: 30px;
+    margin: 10px 0 !important;
+    background: linear-gradient(to bottom, #ff3333, red);
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+.journalImg{
+    width: 50px;
+    height: 50px;
+    background: url(../images/katerg.jpg) center;
+    background-size: cover;
+    float: left;
+    border-radius: 100%;
+    margin: 0 10px 0 0;
+}
+.journalName{
+    line-height: 50px;
+    float: left;
+    margin-right: 415px;
+}
+.butt{
+    float: left;
+    width: 150px;
+    height: 30px;
+    margin: 10px 10px;
+    background: linear-gradient(to bottom, #ff3333, red);
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+.close{
+    width: 100px;
+    height: 20px;
+    float: right;
+    margin-bottom: -10px;
+}
+.close li{
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+/*    background: red;*/
+}
+
+.hide{
+    background: url(../images/triangle.png);
+}
+.xlose{
+    background: url(../images/x.png);
+}
+.eye{
+    background: url(../images/eye.png);
+    background-size: contain;
+}
+
+.catalogFolden{
+    width: 260px;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.58);
+    margin: 10px 10px 0px 0;
+    padding: 10px;
+    border-radius: 5px;
+    float: left;
+}
+.catalogFImage{
+    width: 140px;
+    height: 100%;
+    background: url(../images/2016-04-27_PalmitasMural_ZH-CN10215774743_1920x1080.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    float: left;
+}
+
+.closeMini{
+    width: 90px;
+    height: 20px;
+    float: right;
+    margin-bottom: -10px;
+}
+.closeMini li{
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+/*    background: red;*/
+}
+
+.titleMini{
+    float: right;
+    margin-top: 10px;
+    font-weight: bold;
+    width: 100px;
+    padding: 3px;
+    font-size: .9em;
+    word-wrap: normal
 }
