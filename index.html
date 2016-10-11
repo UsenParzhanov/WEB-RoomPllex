@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+    <div class="popup">
+        <div class="popupCenter popupMark">
+            <div class="pmBody">
+                <div class="pmImg">
+                    <p>The Birdsville Hotel</p>        
+                </div>
+                <div class="pmDesc clearfix">Built in 1884, the low lying, one-story structure has stood the test of time in defiance of the harsh desert heat and nearly unlivable climates. Offering 27 rooms and dining facilities, the establishment is somewhat legendary in Australia as a symbol of the rugged outback spirit, having survived floods and dust storms that decimated much of the surrounding town. Perched on the edge of Australia’s Simpson Desert, the historic Birdsville Hotel acts as a gateway to the arid region and a bastion of traditional Aussie culture.
+                </div>
+                <div class="pmTags  clearfix">
+                    <span>Tags:</span> 
+                    <p>island</p>
+                    <p>nature</p>
+                    <p> rocks</p>
+                </div>
+                <div class="pmMarks">
+                    <ul>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </div>
+                <div class="pmResult">
+                    <span>7.23</span> 
+                    <span>interesting</span>
+                </div>
+            </div>
+            <div class="pmFoot">
+                <button>Save mark <span>137</span></button>
+                <button>More</button>
+                <a href="metka.html" target="_blank">
+                    <button>Read It</button>
+                </a>
+                
+            </div>
+        </div>
+  
+        <div class="popupCenter popupCatalog">
+            <div class="pcBody">
+                <div class="pcImg"></div>
+                <div class="pcTitle">London</div>
+                <div class="pcDesc clearfix">Built in 1884, the low lying, one-story structure has stood the test of time in defiance of the harsh desert heat and nearly unlivable climates. Offering 27 rooms and dining facilities, the establishment is somewhat legendary in Australia as a symbol of the rugged outback spirit, having survived floods and dust storms that decimated much of the surrounding town. Perched on the edge of Australia’s Simpson Desert, the historic Birdsville Hotel acts as a gateway to the arid region and a bastion of traditional Aussie culture.
+                </div>
+                
+                <div class="pcTags clearfix">
+                    <span>Tags:</span> 
+                    <p>island</p>
+                    <p>nature</p>
+                    <p> rocks</p>
+                </div>
+                <div class="pcMarks clearfix">
+                    <ul>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </div>
+                <div class="pcResult clearfix">
+                    <span>7.23</span> 
+                    <span>interesting</span>
+                </div>
+                
+                
+                
+                <button id="showButton">Show all</button>
+                
+                <div class="mapMini">
+                    <div id="map"></div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    
+    
+    
+    <header>
+        <div class="wrapper">
+            <ul>
+                <li ><a href="#">Bundller</a></li>
+                <li><a href="#">My map</a></li>
+                <li><a href="#">Connection</a></li>
+                <li><a href="#">My page</a></li>
+                <li class="currentPage"><a href="#">Settings</a></li>
+                <li class="slider">
+                    <ul>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li class="activeSlide"><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li class="tumblr">
+                            <div class="circle"></div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>  
+    </header>
+    
+   <div class="map">
+        <div id="map"></div>
+   </div>
+   <div class="underMapsButton clearfix">
+        <ul>
+            <li><a href="" data-function="">Search</a></li>
+            <li><a href="" data-function="">Filter</a></li>
+            <li><a href="" data-function="createCatalog">Create catalog</a></li>
+            <li><a href="" data-function="addMark">Add mark</a></li>
+        </ul>
+   </div>
+    
+    
+    
+    
+    <div class="wrapper clearfix">
+        <div class="navLeft"></div>
+        <div class="center">
+           
+            <div class="addMark  underFunction">
+                <p align="center">Add mark</p>
+                 <form action="">
+                     <div class="sh">
+                         <p>Latitude *</p>
+                         <input type="text" name="shyrota">
+                     </div>
+                     <div class="dl">
+                        <p>Longitude *</p>
+                         <input type="text" name="dolgota">
+                     </div>
+                     <div class="zoom">
+                        <p>Zoom</p>
+                         <input type="text" name="zoom">
+                     </div>
+                     <p>Header</p>
+                     <input type="text" name="zagolovok">
+                     <p>Description</p>
+                     <textarea name="opisanie" rows="10"></textarea>
+                     <p>Tags</p>
+                     <input type="text" name="tag">
+                     <div class="addingPhotos clearfix">
+                         <div class="mainPhoto">Main image</div>
+                         <div class="extraPhoto">Additional images</div>
+                     </div>
+                     
+                     
+                     <button>Add mark</button>
+                     <button class="cancelButton">Cancel</button>
+                 </form>
+             </div>
+             
+             
+             <div class="createCatalog  underFunction">
+                
+                 <p align="center">Create catalog</p>
+                 <form action="">
+                     <p>Header</p>
+                     <input type="text" name="zagolovokCreate">
+                     <p>Description</p>
+                     <textarea name="opisanieCreate" rows="10"></textarea>
+                     <p>Tags</p>
+                     <input type="text" name="tagCreate">
+                     <p>Magazines</p>
+                     <select name="magazinesCreate">
+                         <option value="">SultanKarybaev</option>
+                         <option value="">dfv</option>
+                         <option value="">dfv</option>
+                     </select>
+                     <div class="mainImageCreate clearfix">Main image</div>
+                     <button>Create catalog</button>
+                     <button class="cancelButton">Cancel</button>
+                 </form>
+                
+             </div>
+             
+             
+             <div class="catalogFolden">
+                  <div class="catalogFImage"></div>
+                  <div class="closeMini">
+                    <ul>
+                        <li class="eye"></li>
+                        <li class="hide"></li>
+                        <li class="xlose"></li>
+                    </ul>
+                  </div>
+                  <div class="titleMini">London is the capital of Great Britain</div>
+             </div>
+             
+             
+        </div>
+    </div>
+    
+    
+    
+  
+    
+    <div class="marks clearfix">
+        <div class="catalogOpen">
+            <div class="pcBody">
+                <div class="pcImg"></div>
+                <div class="close">
+                    <ul>
+                        <li class="eye"></li>
+                        <li class="hide"></li>
+                        <li class="xlose"></li>
+                    </ul>
+                </div>
+                <br class="wer">
+                <div class="pcTitle">London</div>
+                <div class="pcDesc clearfix">Built in 1884, the low lying, one-story structure has stood the test of time in defiance of the harsh desert heat and nearly unlivable climates. Offering 27 rooms and dining facilities, the establishment is somewhat legendary in Australia as a symbol of the rugged outback spirit, having survived floods and dust storms that decimated much of the surrounding town. Perched on the edge of Australia’s Simpson Desert, the historic Birdsville Hotel acts as a gateway to the arid region and a bastion of traditional Aussie culture.
+                </div>
+          
+                <div class="pcTags clearfix">
+                    <span>Tags:</span> 
+                    <p>island</p>
+                    <p>nature</p>
+                    <p> rocks</p>
+                </div>
+                <div class="pcMarks clearfix">
+                    <ul>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </div>
+                <div class="pcResult clearfix">
+                    <span>7.23</span> 
+                    <span>interesting</span>
+                </div>
+                
+                <div class="clearfix"></div>
+                <br>
+                <br>
+                
+                <div class="subscribe clearfix">
+                    <div class="journalImg"></div>
+                    <div class="journalName">Wild West</div>
+                    <button>Follow</button>
+                </div>
+                <br>
+                <div class="clearfix"></div>
+                
+                <button class="butt">Save</button>
+                <button class="butt">Suggest mark</button>
+            </div>
+            
+        </div>
+    
+        
+        <div class="oneMark" >
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+        
+        <div class="oneMark">
+            <img src="images/katerg.jpg" alt="">
+            <p align="center">Big dog</p>
+        </div>
+   
+    </div>
+   
+    
+    
+    
+    
+    <div class="categories clearfix">
+        <div class="usen">
+            <div class="catImg" data-path="2016-09-19_MountSolitary_EN-AU10153300901_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+        </div>
+        
+        <div class="oneCategory">
+            <div class="catImg" data-path="2016-09-21_Castelmezzano_ROW12819192563_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+        </div>
+        
+        <div class="oneCategory">
+            <div class="catImg" data-path="2016-09-23_KeralaBeach_EN-IN10090663331_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+        </div>
+        
+        <div class="oneCategory">
+            <div class="catImg" data-path="2016-09-23_TarrSteps_ROW9015134040_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+        </div>
+        
+        <div class="oneCategory">
+            <div class="catImg" data-path="2016-09-25_Yomegashima1_JA-JP11254666790_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+        </div>
+        
+         <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-27_Roraima_PT-BR12977483391_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+         </div>
+        
+         <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-27_PalmitasMural_ZH-CN10215774743_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+         </div>
+        
+         <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-30_BandraWorliSealink_EN-IN10379335586_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+         </div>
+        
+         <div class="oneCategory ">
+            <div class="catImg" data-path="2016-04-30_GuadalupeCloudsNP_ROW11720694415_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+         </div>
+        
+         <div class="usen">
+            <div class="catImg" data-path="2016-04-30_HayMurol_FR-FR8761556848_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+         </div>
+        
+         <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-27_WycollerAtom_EN-GB12173691922_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+         </div>
+        
+         <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-28_Anteater_PT-BR11936003208_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+         </div>
+         
+        <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-27_WycollerAtom_EN-GB12173691922_1920x1080">
+                <p>The most beautiful vl,;l;,olcanos in Iceland</p>
+            </div>
+         </div>
+         
+         <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-27_WycollerAtom_EN-GB12173691922_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+         </div>
+         
+
+         <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-27_WycollerAtom_EN-GB12173691922_1920x1080">
+                <p>The most beautiful vl,;l;,olcanos in Iceland</p>
+            </div>
+         </div>
+         
+         <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-27_WycollerAtom_EN-GB12173691922_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+         </div>
+         <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-27_WycollerAtom_EN-GB12173691922_1920x1080">
+                <p>The most beautiful vl,;l;,olcanos in Iceland</p>
+            </div>
+         </div>
+         
+         <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-27_WycollerAtom_EN-GB12173691922_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+         </div>
+        
+         <div class="usen">
+            <div class="catImg" data-path="2016-09-19_MountSolitary_EN-AU10153300901_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+        </div>
+        
+        <div class="oneCategory">
+            <div class="catImg" data-path="2016-09-21_Castelmezzano_ROW12819192563_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+        </div>
+        
+        <div class="oneCategory">
+            <div class="catImg" data-path="2016-09-23_KeralaBeach_EN-IN10090663331_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+        </div>
+        
+        <div class="oneCategory">
+            <div class="catImg" data-path="2016-09-23_TarrSteps_ROW9015134040_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+        </div>
+        
+        <div class="oneCategory">
+            <div class="catImg" data-path="2016-09-25_Yomegashima1_JA-JP11254666790_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+        </div>
+        
+         <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-27_Roraima_PT-BR12977483391_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+         </div>
+        
+         <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-27_PalmitasMural_ZH-CN10215774743_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+         </div>
+        
+         <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-30_BandraWorliSealink_EN-IN10379335586_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+         </div>
+        
+         <div class="oneCategory ">
+            <div class="catImg" data-path="2016-04-30_GuadalupeCloudsNP_ROW11720694415_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+         </div>
+        
+         <div class="usen">
+            <div class="catImg" data-path="2016-04-30_HayMurol_FR-FR8761556848_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+         </div>
+        
+         <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-27_WycollerAtom_EN-GB12173691922_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+         </div>
+        
+         <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-28_Anteater_PT-BR11936003208_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+         </div>
+         
+        <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-27_WycollerAtom_EN-GB12173691922_1920x1080">
+                <p>The most beautiful vl,;l;,olcanos in Iceland</p>
+            </div>
+         </div>
+         
+         <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-27_WycollerAtom_EN-GB12173691922_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+         </div>
+         
+
+         <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-27_WycollerAtom_EN-GB12173691922_1920x1080">
+                <p>The most beautiful vl,;l;,olcanos in Iceland</p>
+            </div>
+         </div>
+         
+         <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-27_WycollerAtom_EN-GB12173691922_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+         </div>
+         <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-27_WycollerAtom_EN-GB12173691922_1920x1080">
+                <p>The most beautiful vl,;l;,olcanos in Iceland</p>
+            </div>
+         </div>
+         
+         <div class="oneCategory">
+            <div class="catImg" data-path="2016-04-27_WycollerAtom_EN-GB12173691922_1920x1080">
+                <p>The most beautiful volcanos in Iceland</p>
+            </div>
+         </div>
+        
+        
+    </div>
+    
+    
+    
+    
+   
+    
+    
+    
+    
+    
+    
+   
+    
+    
+    
+    
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+     <script src="js/main.js"></script>
+     <script>
+      function initMap() {
+        // Create a map object and specify the DOM element for display.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          scrollwheel: true,
+          zoom: 8,
+          disableDefaultUI: true    
+        });
+      }
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARGAVk62gvV8O45gTWBat2n5VS0Yf-tbU&callback=initMap"
+    async defer></script>
+    
+    
+</body>
+</html>

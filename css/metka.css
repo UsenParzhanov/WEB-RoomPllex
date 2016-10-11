@@ -1,0 +1,287 @@
+
+.pmDesc{
+ font-size: .8em;   
+}
+
+.pmMarks{
+    width: 355px;
+    height: 50px;
+    padding: 5px;
+    float: left;
+}
+.pmMarks li{
+    width: 30px;
+    height: 30px;
+    margin: 5px 0;
+    background: url(../images/star.png);
+    background-size: contain;
+}
+.pmMarks li:hover{
+    background: url(../images/starhover.png);
+}
+.pmTags{
+    margin-top: 5px;
+}
+.pmTags span{
+    font-weight: bold;
+    float: left;
+    margin-right: 10px;
+}
+.pmTags p{
+    display:list-item;
+    float: left;
+    list-style: none;
+    padding: 0 5px;
+    border-radius: 5px;
+    margin: 0 5px 5px;
+    border: 1px solid white;
+}
+.pmResult{
+    float: right;
+    width: 205px;
+    height: 50px;
+    padding: 15px 40px 0 0;
+    text-align: right;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.pmResult span:last-child{
+    background: #e5217b;
+    margin-left: 15px;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+
+.pmFoot button{
+    background: transparent;
+    color: #ffffff;
+    padding: 7px 10px;
+    border: transparent;
+    float: right;
+    border: 1px solid white;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: .8em;
+    cursor:pointer;
+}
+.pmFoot button:hover{
+    background: white;
+    color: black;
+}
+.pmFoot button span{
+    float: right;
+}
+
+.pmFoot button:first-child{
+    border: transparent;
+    width: 200px;
+    float: left;
+    box-shadow: 1px 1px 3px black;
+    background: linear-gradient(to bottom, #ff3333, red);
+}
+.pmFoot button:first-child:hover{
+    background: linear-gradient(to bottom,red,#ff3333);
+    color: white
+}
+.pmFoot button:last-child{
+    margin-top: 10px;
+    width: 100%;
+    float: none;
+    border: transparent;
+    box-shadow: 1px 1px 3px black;
+    background: linear-gradient(to bottom, #ff3333, red);
+}
+.pmFoot button:last-child:hover{
+    background: linear-gradient(to bottom,red,#ff3333);
+    color: white
+}
+
+
+
+
+.markFullInfo{
+    padding: 20px;  
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.6)
+}
+.fmImg{
+    width: 720px;
+    height: 405px;
+    background: url(../images/katerg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto 10px;
+    position: relative;
+    border-radius: 5px;
+}
+.fmImg p{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+.subscribe{
+    background: rgba(7, 7, 7, 0.67);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px
+}
+.subscribe button{
+    float: right;
+    width: 150px !important;
+    height: 30px;
+    margin: 10px 0 !important;
+}
+.journalImg{
+    width: 50px;
+    height: 50px;
+    background: url(../images/katerg.jpg) center;
+    background-size: cover;
+    float: left;
+    border-radius: 100%;
+    margin: 0 10px 0 0;
+}
+.journalName{
+    line-height: 50px;
+    float: left;
+    margin-right: 415px;
+    
+}
+.moreFunctions{
+    display: none;
+}
+.moreFunctions li:first-child{
+    margin-left: 220px;
+}
+.moreFunctions li{
+    background: transparent;
+    color: #ffffff;
+    padding: 7px 20px;
+    border: 1px solid white;
+    margin: 10px 10px 10px 0;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: .8em;
+    cursor:pointer;
+}
+
+.oneImage{
+    width: 200px;
+    height: 200px;
+    float: left;
+    background: red;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.47)
+}
+.properitiesOfMark li{
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 0 10px 0 0;
+}
+.properitiesOfMark li:hover{
+    border: 1px solid red;
+    color: red !important;
+}
+.addComment{
+    margin: 10px 0;
+}
+
+.acMarks{
+    width: 355px;
+    height: 50px;
+    padding: 5px;
+    float: left;
+/*    border: 1px solid white*/
+}
+.acMarks li{
+    width: 30px;
+    height: 30px;
+    margin: 5px 0;
+    background: url(../images/star.png);
+    background-size: contain;
+}
+.acMarks li:hover{
+    background: url(../images/starhover.png);
+}
+
+.acResult{
+    float: right;
+    width: 205px;
+    height: 50px;
+    padding: 15px 40px 0 0;
+    text-align: right;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.acResult span:last-child{
+    background: #e5217b;
+    margin-left: 15px;
+    width: 10px;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+
+
+
+
+form[name="addComment"] textarea{
+    width: 100%;
+    margin: 5px 0;
+    background: transparent;
+    border-radius: 10px;
+    height: 100px;
+}
+form[name="addComment"] button{
+    text-align: center;
+    padding: 5px 10px;
+    background: red;
+    font-weight: bold;
+    font-size: .8em;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px black;
+    background: linear-gradient(to bottom, #ff3333, red);
+    border: none;
+}
+
+form[name="addComment"] button:hover{
+    background: linear-gradient(to bottom,red,#ff3333);
+}
+
+.comments{
+    margin: 10px 0;
+}
+.oneComment{
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px
+}
+.ava{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: red;
+    margin: 10px;
+    border-radius: 100%;
+}
+.userName{
+    padding: 10px 0 5px;
+    font-weight: bold;
+}
+.mark{
+    background: green;
+    display:inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+.bodyOfComment{
+    padding: 0px 10px 10px;
+    text-indent: 10px;
+}

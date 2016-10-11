@@ -1,0 +1,574 @@
+.underMapsButton{
+    margin: 10px 0 0px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.57);
+    border-radius: 5px;
+}
+.underMapsButton li:first-child{
+    margin-left: 0;
+}
+.underMapsButton li:last-child{
+    margin-right: 0;
+}
+.underMapsButton li{
+    margin: 5px 50px;
+    width: 110px;
+    text-align: center;
+    padding: 5px 0;
+    background: red;
+    font-weight: bold;
+    font-size: .8em;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px black;
+    background: linear-gradient(to bottom, #ff3333, red);
+}
+.underMapsButton li a{
+    display: block;
+}
+.underMapsButton li:hover{
+    box-shadow: none;
+}
+
+.marks{
+    display: none;
+}
+.oneMark{
+    background: rgba(0, 0, 0, 0.6);
+    width: 220px;
+    padding: 10px;
+    margin: 10px 10px 10px 0;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: .8em;
+    box-shadow: 1px 1px 2px black;
+    float: left;
+    cursor: pointer;
+}
+.oneMark img{
+    width: 200px;
+    height: 112px;
+    border-radius: 3px;
+}
+
+
+
+
+
+.popupMark{
+    display: none;
+}
+.pmImg{
+    width: 560px;
+    height: 326px;
+    background: url(../images/katerg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto 10px;
+    position: relative;
+    border-radius: 5px;
+}
+.pmImg p{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+.pmDesc{
+ font-size: .8em;   
+}
+
+.pmMarks{
+    width: 355px;
+    height: 50px;
+    padding: 5px;
+    float: left;
+}
+.pmMarks li{
+    width: 30px;
+    height: 30px;
+    margin: 5px 0;
+    background: url(../images/star.png);
+    background-size: contain;
+}
+.pmMarks li:hover{
+    background: url(../images/starhover.png);
+}
+.pmTags{
+    margin-top: 5px;
+}
+.pmTags span{
+    font-weight: bold;
+    float: left;
+    margin-right: 10px;
+/*    margin-top: 5px;*/
+}
+.pmTags p{
+    display:list-item;
+    float: left;
+    list-style: none;
+    padding: 0 5px;
+    border-radius: 5px;
+    margin: 0 5px 5px;
+    border: 1px solid white;
+}
+.pmResult{
+    float: right;
+    width: 205px;
+    height: 50px;
+    padding: 15px 40px 0 0;
+    text-align: right;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.pmResult span:last-child{
+    background: #e5217b;
+    margin-left: 15px;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+
+.pmFoot button{
+    background: transparent;
+    color: #ffffff;
+    padding: 7px 10px;
+    border: transparent;
+    float: right;
+    border: 1px solid white;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: .8em;
+    cursor:pointer;
+}
+.pmFoot button:hover{
+    background: white;
+    color: black;
+}
+.pmFoot button span{
+    float: right;
+}
+
+.pmFoot button:first-child{
+    border: transparent;
+    width: 200px;
+    float: left;
+    box-shadow: 1px 1px 3px black;
+    background: linear-gradient(to bottom, #ff3333, red);
+}
+.pmFoot button:first-child:hover{
+    background: linear-gradient(to bottom,red,#ff3333);
+    color: white
+}
+.pmFoot button:last-child{
+    margin-top: 10px;
+    width: 100%;
+    float: none;
+    border: transparent;
+    box-shadow: 1px 1px 3px black;
+    background: linear-gradient(to bottom, #ff3333, red);
+}
+.pmFoot button:last-child:hover{
+    background: linear-gradient(to bottom,red,#ff3333);
+    color: white
+}
+
+
+
+
+.popupCatalog{
+    width: 760px;
+    display: none;
+}
+
+
+.pcImg{
+    width: 500px;
+    height: 281px;
+    background: url(../images/2016-04-27_Roraima_PT-BR12977483391_1920x1080.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 0 10px 5px 0;
+    border-radius: 5px;
+}
+.pcDesc{
+    font-size: .9em;
+}
+.pcTitle{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+}
+#showButton{
+    width: 100%;
+    box-shadow: 1px 1px 3px black;
+    background: linear-gradient(to bottom, #ff3333, red);
+    padding: 5px 0;
+    border: none;
+    margin: 10px 30px 0 0; 
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+
+.pcTags{
+    margin-top: 5px;
+}
+.pcTags span{
+    font-weight: bold;
+    float: left;
+    margin-right: 10px;
+/*    margin-top: 5px;*/
+}
+.pcTags p{
+    display:list-item;
+    float: left;
+    list-style: none;
+    padding: 0 5px;
+    border-radius: 5px;
+    margin: 0 5px 5px;
+    border: 1px solid white;
+}
+.pcResult{
+    float: right;
+    width: 205px;
+    height: 50px;
+    padding: 15px 40px 0 0;
+    text-align: right;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.pcResult span:last-child{
+    background: #e5217b;
+    margin-left: 15px;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+
+
+
+.pcMarks{
+    width: 355px;
+    height: 50px;
+    padding: 5px;
+    float: left;
+}
+.pcMarks li{
+    width: 30px;
+    height: 30px;
+    margin: 5px 0;
+    background: url(../images/star.png);
+    background-size: contain;
+}
+.pcMarks li:hover{
+    background: url(../images/starhover.png);
+}
+
+
+
+.addMark{
+    background: rgba(0, 0, 0, 0.6);
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+.addMark textarea{
+    width: 100%;
+    background: transparent;
+    border-radius: 5px;
+}
+.addMark input{
+    background: transparent;
+    border: 1px solid white;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+.addMark input[name="tag"]{
+    width: 100%;
+}
+.addMark input[name="zagolovok"]{
+    width: 100%;
+}
+.addMark .mainPhoto{
+    float: left;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 0 10px 0 0;
+    font-weight: bold;
+}
+.addMark .mainPhoto:hover{
+    background: white;
+    color: black
+}
+.addMark .extraPhoto{
+    float: right;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 0 10px 0 0;
+    font-weight: bold;
+}
+
+.sh{
+    width: 220px;
+    float: left;
+    margin-right: 50px;
+}
+.dl{
+    width: 220px;
+    float: left;
+}
+.zoom{
+    width: 220px;
+    float: right;
+}
+
+.addMark button{
+    box-shadow: 1px 1px 3px black;
+    background: linear-gradient(to bottom, #ff3333, red);
+    padding: 5px 0;
+    border: none;
+    width: 100px;
+    margin: 10px 30px 0 0; 
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+
+
+.createCatalog{
+    background: rgba(0, 0, 0, 0.6);
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+.createCatalog textarea{
+    width: 100%;
+    background: transparent;
+    border-radius: 5px;
+}
+.createCatalog input{
+    background: transparent;
+    border: 1px solid white;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+.createCatalog input[name="tagCreate"]{
+    width: 100%;
+}
+.createCatalog input[name="zagolovokCreate"]{
+    width: 100%;
+}
+.createCatalog select{
+    width: 100%;
+    background: transparent;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.createCatalog .mainImageCreate{
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 0 10px 0 0;
+    font-weight: bold;
+    width: 120px;
+    text-align: center;
+}
+.createCatalog .mainImageCreate:hover{
+    background: white;
+    color: black
+}
+
+
+.createCatalog button{
+    box-shadow: 1px 1px 3px black;
+    background: linear-gradient(to bottom, #ff3333, red);
+    padding: 5px 0;
+    border: none;
+    width: 100px;
+    margin: 10px 30px 0 0; 
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+.usen{
+    width: 610px;
+    height: 342px;
+    float: left;
+    margin: 2.5px 5px 2.5px 0;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.oneCategory{
+    width: 300px;
+    height: 169px;
+    float: left;
+    margin: 2.5px 5px 2.5px 0;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 10px;
+}
+.catImg{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    position: relative;
+}
+.catImg p {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 5px;
+    font-weight: bold;
+    font-size: .8em
+}
+
+
+
+.catalogOpen{
+    background: rgba(0, 0, 0, 0.51);
+    padding: 10px;
+    border-radius: 5px;
+    height: 668px;
+    margin:10px 10px 0 0px;
+    width: 680px;
+    float: left;
+}
+
+
+.subscribe{
+    background: rgba(7, 7, 7, 0.67);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px
+}
+.subscribe button{
+    float: right;
+    width: 150px !important;
+    height: 30px;
+    margin: 10px 0 !important;
+    background: linear-gradient(to bottom, #ff3333, red);
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+.journalImg{
+    width: 50px;
+    height: 50px;
+    background: url(../images/katerg.jpg) center;
+    background-size: cover;
+    float: left;
+    border-radius: 100%;
+    margin: 0 10px 0 0;
+}
+.journalName{
+    line-height: 50px;
+    float: left;
+}
+.butt{
+    float: left;
+    width: 150px;
+    height: 30px;
+    margin: 10px 10px;
+    background: linear-gradient(to bottom, #ff3333, red);
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+.close{
+    width: 100px;
+    height: 20px;
+    float: right;
+    margin-bottom: -10px;
+}
+.close li{
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+/*    background: red;*/
+}
+
+.hide{
+    background: url(../images/triangle.png);
+}
+.xlose{
+    background: url(../images/x.png);
+}
+.eye{
+    background: url(../images/eye.png);
+    background-size: contain;
+}
+
+.catalogFolden{
+    width: 260px;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.58);
+    margin: 10px 10px 0px 0;
+    padding: 10px;
+    border-radius: 5px;
+    float: left;
+    display: none;
+}
+.catalogFImage{
+    width: 140px;
+    height: 100%;
+    background: url(../images/2016-04-27_PalmitasMural_ZH-CN10215774743_1920x1080.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    float: left;
+}
+
+.closeMini{
+    width: 90px;
+    height: 20px;
+    float: right;
+    margin-bottom: -10px;
+}
+.closeMini li{
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+/*    background: red;*/
+}
+
+.titleMini{
+    float: right;
+    margin-top: 10px;
+    font-weight: bold;
+    width: 100px;
+    padding: 3px;
+    font-size: .9em;
+    word-wrap: normal
+}
+.suka{
+    display: none;
+}
