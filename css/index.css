@@ -1,9 +1,4 @@
-.underMapsButton{
-    margin: 10px 0 0px;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.57);
-    border-radius: 5px;
-}
+
 .underMapsButton li:first-child{
     margin-left: 0;
 }
@@ -15,7 +10,6 @@
     width: 110px;
     text-align: center;
     padding: 5px 0;
-    background: red;
     font-weight: bold;
     font-size: .8em;
     border-radius: 3px;

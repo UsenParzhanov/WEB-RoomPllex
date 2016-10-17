@@ -1,0 +1,202 @@
+.infoAboutYourCatalogsAndMarks{
+    width: 500px;
+    margin: 0 auto;
+}
+.infoAboutYourCatalogsAndMarks span{
+    font-size: 2em;
+    font-weight: 700;
+    color: inherit;
+}
+.countOfCreatedCatalogs{
+    width: 250px;
+    float: left;
+    text-align: center;
+	color: red;
+}
+.countOfCreatedCatalogs:hover{
+    color: red;
+}
+
+.countOfCreatedMarks{
+    width: 250px;
+    float: right;
+    text-align: center;
+}
+.countOfCreatedMarks:hover{
+    color: red;
+}
+
+.oneSavedCatalog{
+    width: 300px;
+    background: rgba(0, 0, 0, 0.63);
+    margin: 10px 10px 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    float: left;
+}
+.oneSavedCatalog p{
+    float: left
+}
+.oneSavedCatalog p + span{
+    float: right;
+}
+.oneSavedCatalog button{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0 0 0;
+    background: red;
+    border: none;
+    border-radius: 3px;
+    background: linear-gradient(to bottom, #ff3333, red);
+    font-weight: 500;
+    font-size: .8em;
+}
+.savedCatalogImage{
+    height: 150px;
+    background: url(../images/2016-04-30_HayMurol_FR-FR8761556848_1920x1080.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.savedCCount{
+    float: left;
+    margin-right: 79px;
+    text-align: center;
+    cursor: pointer;
+}
+.savedCCount:hover{
+    color: red;
+}
+.savedMCounts{
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+.savedMCounts:hover{
+    color:red
+}
+.savedSCount{
+    float: right;
+    text-align: center;
+    cursor: pointer;
+}
+.savedSCount:hover{
+    color: red;
+}
+.count{
+    font-size: 2em;
+    font-weight: 700;
+    color: inherit;
+}
+
+.savedCatalogOpen{
+    width: 700px;
+    margin: 10px auto 0;
+    background: rgba(0, 0, 0, 0.66);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.scoImage{
+    width: 300px;
+    height: 168px;
+    background: url(../images/2016-04-27_Roraima_PT-BR12977483391_1920x1080.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    float: left;
+    margin: 0 10px 0 0;
+}
+.savedCatalogsOpen{
+    display: none;
+}
+.savedCatalogOpen span{
+    font-weight: bold;
+}
+
+.savedMarksOfCatalog{
+    width: 700px;
+    margin: 10px auto 0;
+    background: rgba(0, 0, 0, 0.66);
+    border-radius: 5px;
+    padding: 10px;
+}
+.smocImage{
+    width: 200px;
+    height: 112px;
+    background: url(../images/2016-04-27_Roraima_PT-BR12977483391_1920x1080.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    float: left;
+    margin: 0 10px 0 0;
+}
+.smocTitle p {
+    float: left;
+    margin-right: 60px;
+    margin-bottom: 29px;
+}
+
+.smocTitle button{
+    width: 100px;
+    height: 30px;
+    background: linear-gradient(to bottom, #ff3333, red);
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+/*    border: 1px solid white;*/
+    float: right;
+    margin-bottom: 20px;
+}
+
+.svan{
+    margin-top: 0px;    
+    width: 94px;
+    float: left;
+    margin-right: 0px;
+    text-align: center;
+    cursor: pointer;
+    font-size: .6em;
+}
+
+
+.svan span{
+    font-size: 3em!important;
+}
+
+.scInfo{
+    margin: 10px auto;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.57);
+    border-radius: 5px;
+    width: 700px;
+}
+.scInfo span{
+    font-size: 2em;
+}
+.countOfMarks{
+    width: 250px;
+    float: left;
+    text-align: center;
+	color: red;
+}
+.countOfMarks span{
+	color: inherit
+}
+.countOfSuggestMarks{
+    width: 250px;
+    float: right;
+    text-align: center;
+}
+.countOfSuggestMarks span{
+	color: inherit
+}
+.add{
+    margin-right: 0px;
+    width: 59px!important;
+    margin-left: 10px;
+    background: linear-gradient(to bottom, #ff3333, red);
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+.inside{
+	display: none;
+}
